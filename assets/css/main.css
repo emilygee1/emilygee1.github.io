@@ -117,7 +117,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #66b5ff !important;
 			text-decoration: none;
 		}
 
@@ -132,10 +132,11 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		color: #656565;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #000000;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2444,8 +2445,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #66b5ff;
+			color: #66b5ff !important;
 		}
 
 		input[type="submit"]:active,
