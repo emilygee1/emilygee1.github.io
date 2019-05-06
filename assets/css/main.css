@@ -1822,7 +1822,7 @@ input, select, textarea {
 		background: #f7f7f7;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
-		color: inherit;
+		color: #000000;
 		display: block;
 		outline: 0;
 		padding: 0 0.75em;
@@ -1843,7 +1843,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #66b5ff;
 		}
 
 	select {
