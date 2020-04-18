@@ -25,16 +25,7 @@
 	</head>
 	<body class="is-preload">
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="https://emilygee1.github.io/" class="image avatar"><img src="images/me.jpg" alt="" /></a>
-					<h1><strong>emily gee</strong></h1><br />
-					<h1>student at umd</h1>
-					<h1>incoming data scientist at facebook</h1>
-					<h1>enthusiast at dunkin donuts</h1>
-				</div>
-			</header>
+		<?php include('sidebar.php'); ?>
 
 		<!-- Main -->
 			<div id="main">
@@ -47,19 +38,19 @@
 								<p>My favorite indie pop tunes</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://open.spotify.com/user/128632026/playlist/1xHHYHlIghVArM2EPR7jOl?si=FeMUeybcR9ajlcDYC1p-mg" target="_blank" class="image fit thumb"><img src="images/thumbs/are&bee.jpg" alt="are & bee" /></a>
+								<a href="https://open.spotify.com/playlist/1xHHYHlIghVArM2EPR7jOl" target="_blank" class="image fit thumb"><img src="images/thumbs/are&bee.jpg" alt="are & bee" /></a>
 								<h3>are & bee</h3>
 								<p>My favorite R&B tunes</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://open.spotify.com/playlist/726QjSqWOmkYpK1g7cdZAT" target="_blank" class="image fit thumb"><img src="images/thumbs/upLYFT.jpg" alt="upLYFT" /></a>
-								<h3>uplyft</h3>
-								<p>Upbeat songs to bop to in the car, from hip-hop to boyband pop</p>
+								<a href="https://open.spotify.com/playlist/0wvyiE3oZFiWWguNEINwgo" target="_blank" class="image fit thumb"><img src="images/thumbs/corolla.jpg" alt="95 corolla" /></a>
+								<h3>'95 corolla</h3>
+								<p>Hip hop that my friend and I would play in her father's old Corolla</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://open.spotify.com/playlist/69Fg4Bs6lnJbWA8tx7H8Kb" target="_blank" class="image fit thumb"><img src="images/thumbs/bed.jpg" alt="sad gorl hours" /></a>
-								<h3>sad girl power hour</h3>
-								<p>Sad songs for sadder times</p>
+								<a href="https://open.spotify.com/playlist/3989xodTRBcIMVVMQOA0fX" target="_blank" class="image fit thumb"><img src="images/thumbs/illenium.jpg" alt="entry level kevin nguyen" /></a>
+								<h3>entry level kevin nguyen</h3>
+								<p>Pop EDM</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="https://open.spotify.com/playlist/7pwO7cWqPk3t3viFbMchGu" target="_blank" class="image fit thumb"><img src="images/thumbs/night.jpg" alt="mmm" /></a>
@@ -109,21 +100,7 @@
 						</form>
 
 		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/emily-gee/" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://www.facebook.com/emilyomgee" target="_blank" class="icon fa-facebook-square"><span class="label">Facebook</span></a></li>
-						<li><a href="https://www.instagram.com/emilyomgee" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="https://www.github.com/emilygee1" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://medium.com/@emilyomgee" target="_blank" class="icon fa-medium"><span class="label">Medium</span></a></li>
-						<li><a href="mailto:gee.emily16@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Emily Gee 2020</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+			<?php include('footer.php'); ?>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

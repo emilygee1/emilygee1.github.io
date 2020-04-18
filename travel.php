@@ -25,36 +25,29 @@
 	</head>
 	<body class="is-preload">
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="https://emilygee1.github.io/" class="image avatar"><img src="images/me.jpg" alt="" /></a>
-					<h1><strong>emily gee</strong></h1><br />
-					<h1>student at umd</h1>
-					<h1>incoming data scientist at facebook</h1>
-					<h1>enthusiast at dunkin donuts</h1>
-				</div>
-			</header>
+		<?php include('sidebar.php'); ?>
 
 		<!-- Main -->
 			<div id="main">
 					<section id="three">
-						<h2>Travel Photos</h2>
+						<h2>My Travels</h2>
+						<iframe height="400" class="image fit thumb" src="https://www.youtube.com/embed/UWEL3jXsxUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<h3>Photo Albums</h3>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://youtu.be/UWEL3jXsxUE" target="_blank" class="image fit thumb"><img src="images/thumbs/fuji.jpg" alt="Japan & South Korea" /></a>
+								<a href="https://photos.app.goo.gl/njtcH6vAnAuUQkq66" target="_blank" class="image fit thumb"><img src="images/thumbs/fuji.jpg" alt="Japan & South Korea" /></a>
 								<h3>Japan & South Korea (Dec 2019 - Jan 2020)</h3>
-								<p>An incredible winter break. Click the thumbnail for a video. View the photo album <a href="https://photos.app.goo.gl/njtcH6vAnAuUQkq66" target="_blank">here.</a></p>
+								<p>Celebrated the new year in Tokyo! Click the thumbnail to view my photos.</a></p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://youtu.be/wJFeuTpzlsY" target="_blank" class="image fit thumb"><img src="images/thumbs/pv.jpg" alt="Puerto Vallarta" /></a>
+								<a href="https://photos.app.goo.gl/R3g6zYqdEoZXKteq8" target="_blank" class="image fit thumb"><img src="images/thumbs/pv.jpg" alt="Puerto Vallarta" /></a>
 								<h3>Puerto Vallarta (Mar 2019)</h3>
-								<p>Spring break! View my photos <a href="https://photos.app.goo.gl/R3g6zYqdEoZXKteq8" target="_blank">here.</a></p>
+								<p>Spring break with friends!</a></p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="https://photos.app.goo.gl/4y4Gj4hsn5LA7EW28" target="_blank" class="image fit thumb"><img src="images/thumbs/hk.jpg" alt="Hong Kong" /></a>
 								<h3>Hong Kong (Jan 2019)</h3>
-								<p>Visited family in Hong Kong for the first time in almost 7 years! Check out the amazing pictures I took from my trip.</p>
+								<p>Visited family in Hong Kong for the first time in almost 7 years!</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="https://photos.app.goo.gl/iw8ebjfG1ZFEafFPA" target="_blank" class="image fit thumb"><img src="images/thumbs/nyc.jpg" alt="New York City" /></a>
@@ -65,7 +58,7 @@
 					</section>
 					<hr />
 					<div class="col-6 col-12-xsmall">
-						<h3>Places I Want To Go To</h3>
+						<h3>Places I Still Have To Visit</h3>
 							<ul style="color: #676767">
 								<li>Singapore</li>
 								<li>Malaysia</li>
@@ -79,21 +72,7 @@
 			</div>
 
 		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/emily-gee/" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://www.facebook.com/emilyomgee" target="_blank" class="icon fa-facebook-square"><span class="label">Facebook</span></a></li>
-						<li><a href="https://www.instagram.com/emilyomgee" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="https://www.github.com/emilygee1" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://medium.com/@emilyomgee" target="_blank" class="icon fa-medium"><span class="label">Medium</span></a></li>
-						<li><a href="mailto:gee.emily16@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Emily Gee 2020</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+			<?php include('footer.php'); ?>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
